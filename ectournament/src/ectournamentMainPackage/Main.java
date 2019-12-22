@@ -21,6 +21,13 @@ public class Main {
 		 * Option to load other tournaments (to implement later)
 		 * Exit
 		 * 
+		 * Create tournament list to hold tournaments
+		 * 
+		 * For Inside tournament menu:
+		 * Add Player
+		 * Remove Player
+		 * Print player bracket
+		 * 
 		 */
 		
 		int optionSelected = 0;
@@ -31,6 +38,11 @@ public class Main {
 			System.out.println();
 		}
 
+	}
+	
+	public Tournament createTournament()
+	{
+		return new Tournament();
 	}
 
 }
