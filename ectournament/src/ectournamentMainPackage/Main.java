@@ -28,6 +28,7 @@ public class Main {
 		while (optionSelected != 0)
 		{
 			System.out.println("Choose an option from the menu below:  ");
+			System.out.println();
 		}
 
 	}
